@@ -2,4 +2,18 @@ body {
   background-color: #000000;
   font-family: "Inter", sans-serif;
   color: white;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: inherit;
+  height: 800px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.copyright {
+  text-align: center;
 }
