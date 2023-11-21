@@ -8,12 +8,41 @@ body {
   height: 800px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ec0587;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.5em;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.box-1 {
+  width: 320px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 50 0 40 0;
 }
 
 .copyright {
   text-align: center;
+  font-size: 16px;
+  font-weight: 100;
 }
